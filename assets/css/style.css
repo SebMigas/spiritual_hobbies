@@ -8,16 +8,34 @@ body {
     font-family: 'Segoe UI';
     font-weight: 400;
     background-color: #ededed;
+    height: 100%;
+}
+
+#menu li {
+   
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+
+}
+
+#main-img {
+    background: url('../css/images/main-img.jpg');
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
 }
 
 .footer {
-    padding: 40px 0;
+    padding: 80px;
     background-color: #fff;
 }
 
 .footer .social {
     text-align: center;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
     color: #4b4c4d;
 }
 
