@@ -47,3 +47,12 @@
 .nav-list li:hover:after {
     width: 100%;
 }
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    right: 30%;
+    text-align: center;
+    color: rgb(56, 55, 55);
+}
