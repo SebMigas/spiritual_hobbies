@@ -2,14 +2,10 @@
     margin: 0;
     padding: 0;
     border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
 }
 
-body {
-    font-family: 'Segoe UI';
-    font-weight: 400;
-    background-color: #ededed;
-    height: 100%;
-}
 
 .bcg {
     background: url('../images/baner.jpg');
@@ -22,53 +18,32 @@ body {
 }
 
 .nav-list {
-    width: 85%;
-    margin: auto;
-    padding: 35px 0;
-    text-align: right;
-    
-    
+   font-size: 100%;
 }
 
-.nav-list ul li {
+.nav-list li {
+    float: right;
     list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-}
-/*
-body {
-    font-family: 'Segoe UI';
-    font-weight: 400;
-    background-color: #ededed;
-    height: 100%;
+    margin: 20px 50px;
+    position: relative;
 }
 
-
-.footer {
-    padding: 80px;
-    background-color: #fff;
+.nav-list li a {
+    text-decoration: none;
+    color: black;
 }
 
-.footer .social {
-    text-align: center;
-    padding-bottom: 10px;
-    color: #4b4c4d;
+.nav-list li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: rgb(56, 55, 55);
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.2s;
 }
 
-.footer .social a {
-    font-size: 24px;
-    color: inherit;
-    border: 1px solid #ccc;
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    text-align: center;
-    border-radius: 50%;
-    margin: 0 8px;
-    opacity: 0.75;
+.nav-list li:hover:after {
+    width: 100%;
 }
-
-.footer .social a:hover {
-    opacity: 0.9;
-}
-*/
